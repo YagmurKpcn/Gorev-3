@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Galeri</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+
+
+
+<body>
+
+
+  <header class="navbar sticky-top">
+    <div class="container" style="background-color:#1a1d20;">
+      <div class="hstack gap-3">
+
+        <div class="p-2">
+          <a class="navbar-brand" href="#" style="text-decoration: none;">
+            <img src="images/letter-y.ico" alt="rain" width="60px" height="60px">
+          </a>
+        </div>
+
+        <div class="p-2" style="text-align: center;">
+          <img src="images/logo.png" style="width: 90%; ">
+        </div>
+
+        <div class="p-2" style="border-left: 1px solid #ffc107;">
+          <a href="https://worldofwarcraft.blizzard.com/">
+            <img src="images/World of Warcraft.ico  " width="30px" height="30px">
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+
+  <div class="container gy-4 mt-1">
+
+    <div class="icerik">
+      <article class="text1">
+        Merhaba. Ben Yağmur. Seninle en sevdiğim World of Warcraft duvar kağıtlarını paylaşıyorum. <br>
+        Bir resmin ana kaynağını görüntülemek için resme, orjinal boyutunu görüntülemek içinse resmin altındaki isme
+        tıklaman yeterli.
+      </article>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <figure class="image" data-bs-toggle="modal" data-bs-target="#myModal"><img class="galeri"
+            src="images/Stormsong Valley.jpg">
+          <figcaption>
+            <a class="original-size-link" href="images/Stormsong Valley.jpg"> Stormsong Valley </a>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <figure class="image" data-bs-toggle="modal" data-bs-target="#myModal"> <img class="galeri"
+            src="images/Battle for Azeroth Ny'alotha, the Waking City.jpg">
+          <figcaption>
+            <a class="original-size-link" href="images/Battle for Azeroth Ny'alotha, the Waking City.jpg">
+              Battle for Azeroth: Ny'alotha, the Waking City </a>
+          </figcaption>
+        </figure>
+      </div>
+
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <figure class="image" data-bs-toggle="modal" data-bs-target="#myModal"><img class="galeri"
+            src="images/Orgrimmar.jpg">
+          <figcaption>
+            <a class="original-size-link" href="images/Orgrimmar.jpg"> Orgrimmar </a>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <figure class="image" data-bs-toggle="modal" data-bs-target="#myModal"> <img class="galeri"
+            src="images/Dragonflight.png">
+          <figcaption>
+            <a class="original-size-link" href="images/Dragonflight.png"> Dragonflight </a>
+          </figcaption>
+        </figure>
+      </div>
+
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <figure class="image" data-bs-toggle="modal" data-bs-target="#myModal"><img class="galeri"
+            src="images/Shadowlands Ardenweald.jpg">
+          <figcaption>
+            <a class="original-size-link" href="images/Shadowlands Ardenweald.jpg"> Shadowlands: Ardenweald</a>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <figure class="image" data-bs-toggle="modal" data-bs-target="#myModal"><img class="galeri"
+            src="images/Shadowlands Bastion.jpg">
+          <figcaption>
+            <a class="original-size-link" href="images/Shadowlands Bastion.jpg"> Shadowlands: Bastion </a>
+          </figcaption>
+        </figure>
+      </div>
+
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <figure class="image" data-bs-toggle="modal" data-bs-target="#myModal"><img class="galeri"
+            src="images/Shadowlands Revendreth.jpg">
+          <figcaption>
+            <a class="original-size-link" href="images/Shadowlands Revendreth.jpg"> Shadowlands:
+              Revendreth</a>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <figure class="image" data-bs-toggle="modal" data-bs-target="#myModal">
+          <img src="images/Shadowlands Shattered Sky.jpg" class="galeri">
+          <figcaption>
+            <a class="original-size-link" href="images/Shadowlands Shattered Sky.jpg"> Shadowlands:
+              Shattered Sky</a>
+          </figcaption>
+        </figure>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="myModalLabel">Dikkat!</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Bu sitedeki içerikler başka bir siteden alınmıştır. <br>
+          Ana kaynağı görüntülemek için <a
+            href="https://worldofwarcraft.blizzard.com/en-us/news/23429407/new-4k-digital-backgrounds-available">tıklayın
+          </a>
+          <div class="image" style="margin: 2%;">
+            <img id="modalImage" class="galeri" src="">
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Modal -->
+
+
+  <script>
+
+    let modal = document.getElementById('modalImage');
+    document.querySelectorAll(".image img").forEach(element => {
+      element.addEventListener('click', () => {
+        let src = element.getAttribute('src');
+        modal.setAttribute('src', src);
+      })
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+
+</body>
+
+
+<footer>
+  &copy;Task 3 from Yağmur Kepcan
+</footer>
+
+</html>

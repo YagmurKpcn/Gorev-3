@@ -1,0 +1,104 @@
+body {
+    background-color: #212529;
+}
+
+.galeri {
+    width: 100%;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+
+}
+
+#modalImage {
+    width: 100%;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+
+
+.modal-content {
+    background-color: #212529;
+    color: #ffffff;
+    text-align: left;
+}
+
+.modal-header {
+    border-bottom: #6c757d 1px solid;
+}
+
+.modal-footer {
+    border-top: #6c757d 1px solid;
+}
+
+
+
+figcaption {
+    font-size: 100%;
+    background-color: #1a1d20;
+    border-bottom: #6c757d;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+
+}
+
+.logo {
+    text-align: center;
+
+}
+
+
+.icerik {
+    font-size: 100%;
+    background-color: #1a1d20;
+    text-align: left;
+    margin-top: 70px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.text1 {
+    padding: 5%;
+    color: #ffc107;
+}
+
+.original-size-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.original-size-link:hover {
+    color: #ffc107
+}
+
+footer {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 20px;
+    background-color: #1a1d20;
+    color: #ffc107;
+
+}
+
+header {
+    background-color: #1a1d20;
+}
+
+
+.image {
+
+    text-align: center;
+    border: 1px solid #6c757d;
+    background-color: #1a1d20;
+    border-radius: 10px;
+
+}
+
+.card {
+    border: 0;
+}
